@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>rock paper scissors</title>
+  <link href="rock.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2 style="text-align: center; color:#ffde22;" id="heading">ROCK PAPER SCISSORS</h2>
+  <div id="mainBox" >
+
+    
+    <br><br>
+    <button class="buttons" id="rock" onclick="playGame('rock')"></button>
+    <button class="buttons" id="paper" onclick="playGame('paper')"></button>
+    <button class="buttons" id="scissor"  onclick="playGame('scissor')"></button>
+      
+  </div>
+  <!-- <div class="sidet" id="you">
+    <b>YOU</b>
+  </div> -->
+  <div class="resBox">
+      <div>
+        <p id="result">Click Any Choice</p>
+      </div>
+      <br>
+      <div id="score">
+
+      </div>
+  </div>
+  
+  <!-- <div class="sidet" id="ME">
+    <b>BOT</b>
+  </div> -->
+
+  <button id="clear" onclick="clearScore()">
+       clear score
+  </button>
+  <script src="rock.js"></script>
+</body>
+
+</html>

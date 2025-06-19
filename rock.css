@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: rgba(0,0,0,1);
+  color:#ffffff;
+}
+#mainBox{
+  display:flex;
+ justify-content: center;
+}
+.buttons{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin:20px;
+  border:3px solid black;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 3px #937d03;
+}
+
+#rock{
+  background-image: url(rockImg.jpg);
+  background-size: cover;
+}
+#paper{
+  background-image: url(paperImg.jpg);
+  background-size: cover;
+}
+#scissor{
+  background-image: url(scissorImg.jpg);
+  background-size: cover;
+}
+#clear{
+  height:40px;
+  width:100px ;
+  color:#000000;
+  background-color: #e0bf08;
+  border-radius: 11px;
+  position:absolute;
+  bottom:50px;
+  right:50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 3px#937d03 ;
+  border:3px solid black;
+}
+/* #you{
+  height:200px;
+  width: 400px;
+  background-color:#ffde22 ;
+  color:black;
+  position:absolute;
+  left:5px;
+  top:50vh;
+  clip-path: polygon(0% 0%,100% 50%,0% 100%);
+  align-items: center;
+}
+#ME{
+  height:200px;
+  width: 400px;
+  background-color:#ffde22 ;
+  color:black;
+  position:absolute;
+  right:5px;
+  top:50vh;
+  clip-path: polygon(0% 50%,100% 0%,100% 100%);
+  align-items: center;
+  
+}
+#you b{
+  position:absolute;
+  top:50%;
+  left:30%; 
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+}
+#ME b{
+  position:absolute;
+  top:50%;
+  right:0%; 
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+} */
+#score{
+  height:200px;
+  width: 300px;
+   
+}
+.resBox{
+  height: 300px;
+  width:400px;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  position:absolute;
+  top:46%;
+  left:43vw;
+  background-color: #000000;
+  color:#ffde22;
+  font-size:24px ;
+}
